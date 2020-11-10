@@ -1,11 +1,10 @@
 spring:
   profiles:
     active: test
-  application:
-    name: test
 
-
-...
+---
+server:
+  port: 8210
 
 spring:
   profiles:
@@ -14,7 +13,7 @@ spring:
     name: test-cloud-dev-2.0
 
 
-...
+---
 
 spring:
   profiles:
